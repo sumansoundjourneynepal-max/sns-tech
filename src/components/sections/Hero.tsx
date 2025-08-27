@@ -35,7 +35,7 @@ export function Hero() {
     const CurrentServiceIcon = services[currentService].icon;
 
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 py-20">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 pt-20">
             {/* Interactive Background */}
             <div className="absolute inset-0 overflow-hidden">
                 {/* Animated Grid */}
@@ -47,21 +47,20 @@ export function Hero() {
                     }}
                 />
 
+                {/* Floating Particles */}
                 {[...Array(20)].map((_, i) => (
                     <motion.div
                         key={i}
-                        className="absolute w-2 h-2 rounded-full"
+                        className="absolute w-2 h-2 bg-blue-400 rounded-full opacity-30"
                         animate={{
                             x: [0, Math.random() * 100 - 50],
                             y: [0, Math.random() * 100 - 50],
-                            scale: [1, 2, 1],
-                            opacity: [0.3, 0.9, 0.3],
-                            backgroundColor: ["#3b82f6", "#ec4899", "#facc15", "#22c55e", "#a855f7"], // blue, pink, yellow, green, purple
+                            scale: [1, 1.5, 1],
+                            opacity: [0.3, 0.8, 0.3],
                         }}
                         transition={{
                             duration: 3 + Math.random() * 2,
                             repeat: Infinity,
-                            repeatType: "reverse",
                             delay: Math.random() * 2,
                         }}
                         style={{
