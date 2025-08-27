@@ -194,7 +194,7 @@ export function Contact() {
                       height={400}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     /> */}
-                                        <div className="p-2">
+                                        <div className="p-8">
                                             <iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.2976692262918!2d85.3040582!3d27.680501000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190054382911%3A0x97f42292c7b74db6!2sSammi%20%26%20Sounds%20Tech%20Co.!5e0!3m2!1sen!2snp!4v1756024759088!5m2!1sen!2snp"
                                                 width="100%"
