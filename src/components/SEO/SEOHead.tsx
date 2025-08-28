@@ -80,7 +80,7 @@ export function SEOHead({
             <link rel="canonical" href={seoUrl} />
 
             {/* Favicon */}
-            <link rel="icon" type="image/svg+xml" href="/Logo.svg" />
+            <link rel="icon" type="image/svg+xml" href="/Lofo.svg" />
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
             {/* Structured Data */}
